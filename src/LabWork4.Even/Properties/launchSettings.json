@@ -1,0 +1,28 @@
+{
+  "profiles": {
+    "LabWork4.Even": {
+      "commandName": "Project",
+      "commandLineArgs": "all"
+    },
+    "Scenario 1 - Create and Read": {
+      "commandName": "Project",
+      "commandLineArgs": "1"
+    },
+    "Scenario 2 - Update and Delete": {
+      "commandName": "Project",
+      "commandLineArgs": "2"
+    },
+    "Scenario 3 - NotFoundException": {
+      "commandName": "Project",
+      "commandLineArgs": "3"
+    },
+    "Scenario 4 - DuplicateException": {
+      "commandName": "Project",
+      "commandLineArgs": "4"
+    },
+    "Scenario 5 - Order Stock Flow": {
+      "commandName": "Project",
+      "commandLineArgs": "5"
+    }
+  }
+}
