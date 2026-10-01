@@ -1,0 +1,23 @@
+## .NET Core
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+## Visual Studio Code / Rider
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+
+## OS Files
+.DS_Store
+Thumbs.db
