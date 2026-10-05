@@ -31,24 +31,16 @@ public static class QueryableExtensions
         }
 
         if (filter.CategoryId.HasValue)
-        {
             query = query.Where(p => p.CategoryId == filter.CategoryId.Value);
-        }
 
         if (filter.MinPrice.HasValue)
-        {
             query = query.Where(p => p.Price >= filter.MinPrice.Value);
-        }
 
         if (filter.MaxPrice.HasValue)
-        {
             query = query.Where(p => p.Price <= filter.MaxPrice.Value);
-        }
 
         if (filter.InStockOnly.HasValue && filter.InStockOnly.Value)
-        {
             query = query.Where(p => p.StockQuantity > 0);
-        }
 
         return query;
     }
