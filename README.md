@@ -28,3 +28,5 @@ dotnet build
 dotnet test
 dotnet run --project src/LabWork4/LabWork4.csproj
 ```
+## Текущая версия
+v1.0.0 — Первый релиз с полной функциональностью CRUD.
